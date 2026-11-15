@@ -16,6 +16,6 @@ const port = Number(env.PORT || 3000);
 const server = createServer(createRequestListener(router.fetch.bind(router)));
 
 server.listen(port, () => {
-  const info = server.address() as { port: number };
+  const info = server.address();
   console.log(`Server running at http://localhost:${info.port}/`);
 });
