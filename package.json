@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "name": "jundle-react-template",
+  "type": "module",
+  "scripts": {
+    "build": "jundle build",
+    "dev": "jundle dev"
+  },
+  "imports": {
+    "#*": "./src/*"
+  },
+  "dependencies": {
+    "remix": "^3.2.0"
+  },
+  "devDependencies": {
+    "@jundle/rsc": "0.0.1-15",
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@ui-sdk/core": "0.1.0-beta.1",
+    "@ui-sdk/react": "0.1.0-beta.1",
+    "cn": "0.5.2",
+    "jundle": "0.0.1-15",
+    "microlighter": "^2.2.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-server-dom-webpack": "^19.3.1",
+    "tailwindcss": "^4.3.5",
+    "typescript": "7.1.0-beta"
+  },
+  "packageManager": "pnpm@12.18.0",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.18.0",
+      "onFail": "download"
+    }
+  }
+}
